@@ -1,0 +1,112 @@
+/* Reset some default styles for body and header */
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Apply styles to the header element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add styles for main content */
+main {
+    padding: 20px;
+}
+
+/* Styles for button container */
+#button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button-container button {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Styles for quiz container */
+#quiz-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Styles for question container */
+#question-container {
+    margin-bottom: 20px;
+}
+
+/* Styles for answer buttons */
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.answer-btn:hover {
+    background-color: #555;
+}
+
+/* Styles for timer */
+#timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles for footer */
+footer {
+    margin-top: 20px;
+}
+
+#score-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Styles for high scores list */
+.high-scores-list {
+    margin: 10px 0;
+    position: relative;
+    text-align: left;
+}
+
+.high-scores-list li::before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -25px;
+}
+
+.high-scores-list li {
+    margin: 10px 0;
+}
+
+/* Styles for initials input */
+#initials {
+    padding: 5px;
+    margin-left: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+        <div id="button-container">
+            <button id="start-button">Start Game</button>
+            <button id="view-scores-button">View High Scores</button>
+        </div>
+    </header>
+    <main>
+        <div id="quiz-container" style="display: none;">
+            <div id="question-container">
+                <h2>Question 1:</h2>
+                <p id="question">What is JavaScript?</p>
+            </div>
+            <div id="answer-buttons" style="display: none;">
+                <button class="answer-btn">Option 1</button>
+                <button class="answer-btn">Option 2</button>
+                <button class="answer-btn">Option 3</button>
+                <button class="answer-btn">Option 4</button>
+            </div>            
+        </div>
+        <div id="timer" style="display: none;"><span id="time-left"></span></div>
+        <div id="high-score-container" style="display: none;">
+            <h2>High Scores</h2>
+            <ol id="high-scores-list" class="high-scores-list"></ol>
+            <button id="clear-scores">Clear High Scores</button>
+            <button id="go-back-button">Go Back</button>
+        </div>
+    </main>
+    <footer id= "footer" style="display: none">
+        <form id="score-form">
+            <label for="initials">Enter your initials:</label>
+            <input type="text" id="initials" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
