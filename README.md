@@ -10,7 +10,7 @@ https://everhandy.github.io/Wonderful-Web-APIs-Quiz-Project/
 
 ## Link to Screenshot:
 
-
+https://github.com/everhandy/Wonderful-Web-APIs-Quiz-Project/blob/main/assets/Coding-Quiz-Screenshot.png
 
 ## Installation:
 
